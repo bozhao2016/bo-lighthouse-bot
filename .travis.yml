@@ -9,3 +9,4 @@ script:
  - webpack
 after_success:
  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+npm i --save-dev https://github.com/bozhao2016/bo-lighthouse-bot
